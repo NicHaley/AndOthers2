@@ -78,13 +78,24 @@ body {
   width: 100%;
   margin-top: 600px; }
 
-.section-three {
+.section-three, .section-five {
   color: white;
   background-color: black;
   padding-left: 15%;
+  padding-right: 15%;
   padding-top: 250px;
   padding-bottom: 250px;
   line-height: 2.0;
   font-size: 1.1rem; }
+
+.section-four {
+  height: 100%;
+  background-color: black; }
+
+.section-four video {
+  width: 100%; }
+
+.section-sex video {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
