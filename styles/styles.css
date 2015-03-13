@@ -3,7 +3,8 @@
 
 body {
   font-size: 1em;
-  margin: 0px; }
+  margin: 0px;
+  background-color: black; }
 
 .landing-bg {
   position: fixed;
@@ -15,7 +16,8 @@ body {
 
 .landing-img {
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  z-index: 1; }
 
 .front {
   height: 100vh;
@@ -31,7 +33,7 @@ body {
   line-height: 0.72;
   word-break: break-all;
   font-weight: 800;
-  color: #4c4c4c; }
+  color: #3d3d3d; }
 
 .text-segue {
   position: relative;
@@ -74,28 +76,35 @@ body {
   background: -ms-linear-gradient(top, transparent 0%, #030303 16%, black 100%);
   background: linear-gradient(to bottom, transparent 0%, #030303 16%, black 100%); }
 
+.intro-quote {
+  padding-top: 600px;
+  display: inline-block;
+  color: white;
+  line-height: 1.8;
+  font-size: 1.4rem;
+  padding-left: 15%; }
+
 .section-two video {
   width: 100%;
-  margin-top: 600px; }
+  margin-top: 100px; }
 
-.section-three, .section-five {
+.section-three, .section-five, .section-seven {
   color: white;
   background-color: black;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 250px;
   padding-bottom: 250px;
-  line-height: 2.0;
+  line-height: 1.8;
   font-size: 1.1rem; }
 
-.section-four {
-  height: 100%;
+.section-four, .section-six {
   background-color: black; }
 
 .section-four video {
   width: 100%; }
 
-.section-sex video {
+.section-six video {
   width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
