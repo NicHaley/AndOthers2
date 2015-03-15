@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 body {
   font-size: 1em;
@@ -33,7 +33,7 @@ body {
   line-height: 0.72;
   word-break: break-all;
   font-weight: 800;
-  color: #3d3d3d; }
+  color: black; }
 
 .text-segue {
   position: relative;
@@ -80,23 +80,32 @@ body {
   padding-top: 600px;
   display: inline-block;
   color: white;
-  line-height: 1.8;
+  line-height: 1.5;
+  font-family: 'Old Standard TT', serif;
   font-size: 1.4rem;
+  font-weight: 500;
   padding-left: 15%; }
+
+.intro-quote > span {
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.2rem;
+  font-weight: 300; }
 
 .section-two video {
   width: 100%;
   margin-top: 100px; }
 
-.section-three, .section-five, .section-seven {
-  color: white;
+.poem {
+  color: #E7D2AD;
   background-color: black;
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 250px;
-  line-height: 1.8;
-  font-size: 1.1rem; }
+  line-height: 1.4;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.1rem;
+  font-weight: 400; }
 
 .section-four, .section-six {
   background-color: black; }

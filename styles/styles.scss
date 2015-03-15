@@ -1,10 +1,11 @@
 // Colours
-$mid-grey: #3d3d3d;
+$mid-grey: black;
 $dark-grey: black;
+$poem-color: #E7D2AD;
 
 // General
 * {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -102,9 +103,17 @@ body {
 	padding-top: 600px;
 	display: inline-block;
 	color: white;
-	line-height: 1.8;
+	line-height: 1.5;
+	font-family: 'Old Standard TT', serif;
 	font-size: 1.4rem;
+	font-weight: 500;
 	padding-left: 15%;
+}
+
+.intro-quote > span {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
 .section-two video {
@@ -112,15 +121,17 @@ body {
 	margin-top: 100px;
 }
 
-.section-three, .section-five, .section-seven {
-	color: white;
+.poem {
+	color: $poem-color;
 	background-color: $dark-grey;
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-bottom: 250px;
-	line-height: 1.8;
+	line-height: 1.4;
+	font-family: 'Old Standard TT', serif;
 	font-size: 1.1rem;
+	font-weight: 400;
 }
 
 .section-four, .section-six {
