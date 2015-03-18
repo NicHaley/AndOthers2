@@ -49,21 +49,13 @@ body {
   top: 0; }
 
 .row-2 {
-  top: 90px; }
+  top: 80px; }
 
 .row-3 {
-  top: 130px; }
+  top: 110px; }
 
 .row-4 {
-  top: 190px; }
-
-.row-5 {
-  bottom: 0; }
-
-.inverted {
-  transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1); }
+  top: 125px; }
 
 .section-two {
   margin-top: -500px;
@@ -77,7 +69,7 @@ body {
   background: linear-gradient(to bottom, transparent 0%, #030303 16%, black 100%); }
 
 .intro-quote {
-  padding-top: 600px;
+  padding-top: 500px;
   display: inline-block;
   color: white;
   line-height: 1.5;
@@ -102,9 +94,9 @@ body {
   padding-right: 15%;
   padding-top: 200px;
   padding-bottom: 250px;
-  line-height: 1.4;
+  line-height: 1.5;
   font-family: 'Old Standard TT', serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400; }
 
 .section-four, .section-six {
