@@ -108,4 +108,15 @@ body {
 .section-six video {
   width: 100%; }
 
+.front.trb {
+  text-align: center; }
+
+.title.trb {
+  width: 100%;
+  top: 100vh; }
+
+.test {
+  height: 100vh;
+  width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
