@@ -1,6 +1,6 @@
 // Colours
 $mid-grey: #3d3d3d;
-$dark-grey: black;
+$dark-grey: #303030;
 $poem-color: #E7D2AD;
 
 // General
@@ -13,7 +13,7 @@ $poem-color: #E7D2AD;
 body {
 	font-size: 1em;
 	margin: 0px;
-	background-color: $dark-grey;
+	background-color: black;
 }
 
 // Landing Cover
@@ -48,7 +48,7 @@ body {
 	line-height: 0.72;
 	word-break: break-all;
 	font-weight: 800;
-	color: $dark-grey;
+	color: black;
 }
 
 .text-segue {
@@ -115,7 +115,7 @@ body {
 
 .poem {
 	color: $poem-color;
-	background-color: $dark-grey;
+	background-color: black;
 	padding-left: 15%;
 	padding-right: 15%;
 	padding-top: 200px;
@@ -127,7 +127,7 @@ body {
 }
 
 .section-four, .section-six {
-	background-color: $dark-grey;
+	background-color: black;
 }
 
 .section-four video {
@@ -143,6 +143,14 @@ body {
 
 // The TROUBADOR
 
+.tr-bg {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
 .front.trb {
 	text-align: center;
 }
@@ -152,14 +160,19 @@ body {
 	top: 100vh;
 }
 
-.test {
+.section-two-tr {
 	height: 100vh;
 	width: 100%;
+	position: relative;
 }
 
-
-
-
+.intro-tr {
+	max-width: 400px;
+	color: $dark-grey;
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+}
 
 
 
