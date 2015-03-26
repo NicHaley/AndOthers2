@@ -123,7 +123,7 @@ body {
   top: 100vh; }
 
 .section-two-tr {
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   position: relative; }
 
@@ -131,7 +131,18 @@ body {
   max-width: 400px;
   color: #303030;
   position: absolute;
-  bottom: 0;
+  bottom: 25vh;
   left: 25%; }
+
+.section-three-tr {
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  background: transparent;
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
 
 /*# sourceMappingURL=styles.css.map */
