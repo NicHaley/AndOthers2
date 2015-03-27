@@ -103,7 +103,7 @@ body {
   width: 100%;
   margin-top: 100px; }
 
-.poem {
+.poem-ex {
   color: #E7D2AD;
   background-color: black;
   padding-left: 15%;
@@ -152,10 +152,20 @@ body {
 
 .poem-tr {
   line-height: 1.5;
-  display: inline-block; }
+  display: block; }
 
 .vid-tr-container {
-  position: relative; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 1s;
+  -webkit-transition: 1s; }
+
+.vid-tr-container1.active, .vid-tr-container2.active, .vid-tr-container3.active {
+  opacity: 0.45;
+  transition: 1s;
+  -webkit-transition: 1s; }
 
 .vid-tr {
   width: 100%; }
@@ -187,12 +197,12 @@ body {
 
 .poem1-tr, .poem2-tr {
   color: #303030;
-  padding: 25vh 0;
+  padding: 35vh 0;
   margin-left: 25%; }
 
 .poem3-tr {
   color: #303030;
-  padding-top: 25vh;
+  padding-top: 35vh;
   padding-bottom: 50vh;
   margin-left: 25%; }
 
