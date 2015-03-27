@@ -174,7 +174,7 @@ body {
 	left: 25%;
 }
 
-.vid1-tr, .vid2-tr {
+.vid1-tr, .vid2-tr, .vid3-tr {
 	position: relative;
 }
 
@@ -191,7 +191,7 @@ body {
 	background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }
 
-.vid1-tr video, .vid2-tr video {
+.vid1-tr video, .vid2-tr video, .vid3-tr video {
 	width: 100%;
 }
 
@@ -209,11 +209,16 @@ body {
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }
 
-.poem1-tr {
+.poem1-tr, .poem2-tr {
 	color: $dark-grey;
 	padding: 25vh 0;
 	margin-left: 25%;
 }
 
-
+.poem3-tr {
+	color: $dark-grey;
+	padding-top: 25vh;
+	padding-bottom: 50vh;
+	margin-left: 25%;
+}
 
