@@ -134,8 +134,14 @@ body {
   bottom: 25vh;
   left: 25%; }
 
-.vid1-tr, .vid2-tr, .vid3-tr {
+.poem-tr {
+  line-height: 1.5; }
+
+.vid-tr-container {
   position: relative; }
+
+.vid-tr {
+  width: 100%; }
 
 .gradient-trans-bottom-tr {
   position: absolute;
@@ -148,9 +154,6 @@ body {
   background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
   background: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
   background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, white 100%); }
-
-.vid1-tr video, .vid2-tr video, .vid3-tr video {
-  width: 100%; }
 
 .gradient-trans-top-tr {
   position: absolute;
