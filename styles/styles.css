@@ -160,10 +160,11 @@ body {
   width: 100%;
   opacity: 0;
   transition: 1s;
-  -webkit-transition: 1s; }
+  -webkit-transition: 1s;
+  z-index: 0; }
 
 .vid-tr-container1.active, .vid-tr-container2.active, .vid-tr-container3.active {
-  opacity: 0.45;
+  opacity: 0.4;
   transition: 1s;
   -webkit-transition: 1s; }
 
@@ -196,14 +197,18 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%); }
 
 .poem1-tr, .poem2-tr {
+  position: relative;
   color: #303030;
   padding: 35vh 0;
-  margin-left: 25%; }
+  margin-left: 25%;
+  z-index: 100; }
 
 .poem3-tr {
+  position: relative;
   color: #303030;
   padding-top: 35vh;
   padding-bottom: 50vh;
-  margin-left: 25%; }
+  margin-left: 25%;
+  z-index: 100; }
 
 /*# sourceMappingURL=styles.css.map */
