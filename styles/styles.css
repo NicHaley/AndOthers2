@@ -139,7 +139,7 @@ body {
   top: 100vh; }
 
 .section-two-tr {
-  height: 150vh;
+  height: 120vh;
   width: 100%;
   position: relative; }
 
@@ -147,7 +147,7 @@ body {
   max-width: 400px;
   color: #303030;
   position: absolute;
-  bottom: 25vh;
+  bottom: -25vh;
   left: 25%; }
 
 .poem-tr {
@@ -199,16 +199,21 @@ body {
 .poem1-tr, .poem2-tr {
   position: relative;
   color: #303030;
-  padding: 35vh 0;
+  padding-top: 80vh;
   margin-left: 25%;
   z-index: 100; }
 
 .poem3-tr {
   position: relative;
   color: #303030;
-  padding-top: 35vh;
-  padding-bottom: 50vh;
+  padding-top: 80vh;
+  padding-bottom: 45vh;
   margin-left: 25%;
   z-index: 100; }
+
+.video-space {
+  height: 80vh;
+  width: 100%;
+  margin-top: -20vh; }
 
 /*# sourceMappingURL=styles.css.map */
