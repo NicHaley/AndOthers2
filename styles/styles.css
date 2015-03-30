@@ -103,7 +103,7 @@ body {
   width: 100%;
   margin-top: 100px; }
 
-.poem-ex {
+.poem {
   color: #E7D2AD;
   background-color: black;
   padding-left: 15%;
@@ -152,21 +152,10 @@ body {
 
 .poem-tr {
   line-height: 1.5;
-  display: block; }
+  display: inline-block; }
 
 .vid-tr-container {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  transition: 1s;
-  -webkit-transition: 1s;
-  z-index: 0; }
-
-.vid-tr-container1.active, .vid-tr-container2.active, .vid-tr-container3.active {
-  opacity: 0.4;
-  transition: 1s;
-  -webkit-transition: 1s; }
+  position: relative; }
 
 .vid-tr {
   width: 100%; }
@@ -197,18 +186,14 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%); }
 
 .poem1-tr, .poem2-tr {
-  position: relative;
   color: #303030;
-  padding: 35vh 0;
-  margin-left: 25%;
-  z-index: 100; }
+  padding: 25vh 0;
+  margin-left: 25%; }
 
 .poem3-tr {
-  position: relative;
   color: #303030;
-  padding-top: 35vh;
+  padding-top: 25vh;
   padding-bottom: 50vh;
-  margin-left: 25%;
-  z-index: 100; }
+  margin-left: 25%; }
 
 /*# sourceMappingURL=styles.css.map */
