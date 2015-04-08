@@ -1,8 +1,8 @@
 var scrollLimit = 500;
 var sectionTwo = $('.section-two-tr').offset().top;
-var poemOneTop = $('.poem1-tr').offset().top;
-var poemTwoTop = $('.poem2-tr').offset().top;
-var poemThreeTop = $('.poem3-tr').offset().top;
+var poemOneTop = ($('.poem1-tr').offset().top - $(window).height()/2);
+var poemTwoTop = ($('.poem2-tr').offset().top - $(window).height()/2);
+var poemThreeTop = ($('.poem3-tr').offset().top - $(window).height()/2);
 
 
 $(window).on('scroll', function(){
