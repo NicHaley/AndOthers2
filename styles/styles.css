@@ -147,8 +147,9 @@ body {
   max-width: 400px;
   color: #303030;
   position: absolute;
-  bottom: 25vh;
-  left: 25%; }
+  margin: 80vh 0;
+  padding: 25px 25%;
+  background-color: rgba(255, 255, 255, 0.8); }
 
 .poem-tr {
   line-height: 1.5;
@@ -199,16 +200,17 @@ body {
 .poem1-tr, .poem2-tr {
   position: relative;
   color: #303030;
-  padding: 35vh 0;
-  margin-left: 25%;
-  z-index: 100; }
+  margin: 80vh 0;
+  padding: 25px 25%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.8); }
 
 .poem3-tr {
   position: relative;
   color: #303030;
-  padding-top: 35vh;
-  padding-bottom: 50vh;
-  margin-left: 25%;
-  z-index: 100; }
+  padding: 25px 25%;
+  margin: 80vh 0 45vh 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.8); }
 
 /*# sourceMappingURL=styles.css.map */
