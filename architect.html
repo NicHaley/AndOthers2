@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta property="og:url" content="http://nhaley.ca" />
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="javascript/script.js"></script>
+
+	<link rel="stylesheet" href="styles/selection-sharer.css" />
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic|Alegreya+Sans:100,300,400,500,700,800,900,700italic,400italic,500italic|Gentium+Book+Basic:400,700,400italic|Alegreya:400italic,400,900,700|Merriweather:400,900,700,400italic,300italic,300|Open+Sans:300italic,400italic,600italic,400,800,700,600,300|Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<main>
+	<div class="mobile">
+		<div class="mobile-container">
+			<i class="icon-mobile-phone"></i><br>
+		</div>
+		<div class="mobile-text">PLEASE ROTATE YOUR DEVICE</div>
+	</div>
+<!-- 	<audio class="audio-ex">
+		<source src="audio/troubadour.mp3"></source>
+	</audio> -->
+	<i class="icon icon-volume-up" target="_blank"></i>
+	<div class="white-bg"></div>
+	<div class="landing-bg">
+		<img class="landing-img" src="styles/images/architect.png">
+	</div>
+	<div class="ar-bg"></div>
+	</main>
+	<script src="javascript/jquery.ripples.js"></script>
+	<script>
+		$(document).ready(function() {
+			try {
+				$('.ar-bg').ripples({
+					resolution: 512,
+					dropRadius: 20, //px
+					perturbance: 0.04,
+				});
+			}
+			catch (e) {
+				$('.error').show().text(e);
+			}
+
+			// Automatic drops
+			setInterval(function() {
+				var $el = $('.ar-bg');
+				var x = Math.random() * $el.outerWidth();
+				var y = Math.random() * $el.outerHeight();
+				var dropRadius = 20;
+				var strength = 0.03 + Math.random() * 0.03;
+				
+				$el.ripples('drop', x, y, dropRadius, strength);
+			}, 2000);
+		});
+	</script>
+	<script src="javascript/mobile-warning.js"></script>
+
+</body>
+</html>

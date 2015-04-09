@@ -16,7 +16,7 @@ $poem-color: #E7D2AD;
 	color: #afafaf;
 	transition: color 0.3s;
 	-webkit-transition: color 0.3s;
-	z-index: 10;
+	z-index: 101;
 }
 
 .icon:hover {
@@ -57,12 +57,12 @@ $poem-color: #E7D2AD;
 	margin: auto;
 }
 
-// The EXILE
-
-body {
-	font-size: 1em;
-	margin: 0px;
-	background-color: black;
+.white-bg {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
 }
 
 // Landing Cover
@@ -89,6 +89,14 @@ body {
 .title {
 	position: absolute;
 	bottom: 0;
+}
+
+// The EXILE
+
+body {
+	font-size: 1em;
+	margin: 0px;
+	background-color: black;
 }
 
 .title, .text-segue h1 {
@@ -192,14 +200,6 @@ body {
 
 // The TROUBADOR
 
-.tr-bg {
-	background-color: white;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: -1;
-}
-
 .front.trb {
 	text-align: center;
 }
@@ -293,3 +293,33 @@ body {
 	background-color: rgba(255,255,255,0.8);
 }
 
+@media (max-width: 800px) and (max-height: 500px) {
+	.poem-tr {
+		font-size: 1rem;
+	}
+
+	.poem1-tr, .poem2-tr, .poem3-tr, .intro-tr {
+		padding: 15px 15%;
+		text-align: center;
+	}
+
+	.poem3-tr {
+		margin-bottom: 30vh;
+	}
+
+	.gradient-trans-bottom-tr, .gradient-trans-top-tr {
+		height: 100px;
+	}
+}
+
+// The architect
+
+.ar-bg {
+	position: fixed;
+	background-image: url(images/reflection.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
